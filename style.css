@@ -1,7 +1,7 @@
 .header {
     padding: 80px; 
     text-align: center; 
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)),url("/images/Malang.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)),url("./images/Malang.jpg");
     position: relative;
     height: 100%;
     background-position: center;
