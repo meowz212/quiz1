@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+<style>
+body {
+  font-family: 'Sansita Swashed', 'PT Sans', sans-serif;
+			font-size: 10pt;
+}
+</style>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="header">
+    <h1>Food and Culinaries</h1>
+    <p>Brief description of food and culinaries in my hometown</p>
+  </div>
+
+<div id="navbar">
+  <a class="active" href="/index.html">Home</a>
+  <a href="/profile/index.html">Profile</a>
+  <a href="/hometown/index.html">Hometown</a>
+  <a href="/food/index.html">Food</a>
+  <a href="/tourist/index.html">Tourism</a>
+</div>
+
+
+  <div class="details-wrapper">
+    <div>
+      <span>Bakso Malang</span>
+      <div class="card">
+      <img src="./images/Bakso.jpg" alt="Bakso" style="width: 350px;height:350px;">
+      <div class="container">
+      <p>Bakso has become one of the culinary icons of Malang city which has been popular with sellers in various cities in Indonesia. 
+        Malang meatballs are like the prima donna on earth. 
+        Starting from street vendors, kiosks, stalls, stalls, depots, and even restaurants in big cities in Indonesia, some make Malang meatballs their main menu.</p>
+ 
+        <p>
+        In one bowl of Malang meatballs, there are various fillings. 
+        Apart from meatballs, there are also white or skin tofu, stuffed dumplings, bean sprouts, noodles, vermicelli, and dumplings. 
+        The use of the right spices can create delicacy in the meatball sauce so that it can arouse appetites. 
+        To make it more stable, people usually eat Malang meatballs with chili sauce which can sting the tongue</p>
+      </div>
+    </div>
+  </div>
+    <div>
+      <span>Orem-orem</span>
+      <div class="card">
+      <img src="./images/Orem-orem.jpg" alt="Orem - Orem" style="width: 350px;height:350px;">
+      <div class="container">
+      <p>Malang City is known for its massive tempe production. Therefore, it is a must to try Malang specialties made from the basic ingredients of Malang tempeh.
+
+        Orem-orem is an example of authentic Malang culinary that uses the basic ingredient of a dish in the form of tempeh. 
+        In the past, orem-orem were only served at certain times, usually during weddings and thanksgiving.
+        
+        Entering the mid-1980s, orem-orem began to be sold in traditional food stalls.</p>
+
+        <p>
+        
+        Orem-orem is a soup dish that serves fried tempeh slices seasoned with chicken.
+        
+        The serving of orem-orem is done in a bowl containing slices of tempeh, chicken, and thick, thick sauce made of coconut milk.
+        
+        The taste of the orem-orem sauce is similar to lodeh vegetables, but spicier and can be added with sweet soy sauce and chili sauce.
+        
+        In order for this food to fill the stomach more, Malang residents often eat it with rice cake and bean sprouts.</p>
+
+    </div>
+  </div>
+  </div>
+  </div>
+  <div class="details-wrapper">
+    <div>
+      <span>Bakso bakar</span>
+      <div class="card">
+      <img src="./images/Bakso Bakar.jpg" alt="Bakso Bakar" style="width: 350px;height:350px;">
+        <div class="container">
+      <p>Currently, even though people do not have a strong culinary background, they can create a variety of foodstuffs to make unique and distinctive foods.
+
+        Like in Malang, there are grilled meatballs which are increasingly considered as a famous Malang food.</p>
+
+        <p>
+       
+        The first time Soeparman introduced grilled meatballs, usually called Pak Man, through his Bakso Bakar Pak Man shop located on Jl. Diponegoro No. 19 A, Malang.
+       
+        The presence of Pak Man's meatball shop adds to the culinary encyclopedia of Malang city. The grilled meatball served by Pak Man has a variety of flavors, from boiled to grilled meatballs, but the most popular one is the meatball.
+       
+        The reason is, the baked meatballs give off a more delicious aroma. In addition, Pak Man also provides the level of spiciness of the meatballs, ranging from not spicy, medium, to very spicy.</p>
+        </div>
+        </div>
+    </div>
+    <div>
+      <span>Cwie mie</span>
+      <div class="card">
+      <img src="./images/Cwie Mie.jpg" alt="Cwie Mie" style="width: 350px;height:350px;">
+        <div class="container">
+      <p>Cwie mie is a Chinese descent culinary that is widespread around the city of Malang. Currently, the name cwie mie has started to change its name to noodle dumplings.
+
+        The reason for changing naam cwie noodles to noodle dumplings is because dumplings are always there to accompany the noodles.</p>
+
+       <p>
+        In Malang there are quite a lot of noodle dumpling depots that are established, such as Depot Sawahan, Depot Lima Satu, Gang Jangkring Depot, Bromo Pojok Mie Dumpling, Gajah Mada Depot, and Dempo Mie Pangsit.
+       
+        Most of the depots serve homemade noodles using traditional to modern methods. The size of the noodles for poor cwie tends to be small. Cwie noodles served with chicken that has been smashed, gravy, and a sprinkling of green onions.
+       
+        The appearance of this typical Malang food is very simple, but the taste can be addictive. Usually cwie noodles are eaten with a side menu that is sold separately, such as dumplings, stuffed tofu, and fried shrimp meatballs.</p>
+    </div>
+  </div>
+  </div>
+  </div>
+<div class="footer">
+  <h2>Copyright © 2020 - Kinas.</h2>
+</div>
+
+</body>
+</html>
+
+<script>
+  window.onscroll = function() {myFunction()};
+  
+  var navbar = document.getElementById("navbar");
+  var sticky = navbar.offsetTop;
+  
+  function myFunction() {
+    if (window.pageYOffset >= sticky) {
+      navbar.classList.add("sticky")
+    } else {
+      navbar.classList.remove("sticky");
+    }
+  }
+  </script>

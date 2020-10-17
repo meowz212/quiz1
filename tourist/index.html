@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+<style>
+body {
+    font-family: 'Sansita Swashed', 'PT Sans', sans-serif;
+			font-size: 10pt;
+}
+</style>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="header">
+    <h1>Malang Tourism</h1>
+    <p>Places you wouldn't want to miss</p>
+  </div>
+
+  <div id="navbar">
+    <a class="active" href="/index.html">Home</a>
+    <a href="/profile/index.html">Profile</a>
+    <a href="/hometown/index.html">Hometown</a>
+    <a href="/food/index.html">Food</a>
+    <a href="/tourist/index.html">Tourism</a>
+  </div>
+
+
+  <div class="details-wrapper">
+    <div>
+      <span>Museum Brawijaya</span>
+      <div class="card">
+      <img src="./images/Museum Brawijaya.jpg" alt="Bakso" style="width: 350px;height:350px;">
+      <div class="container">
+      <p>Named after one of the most prominent army forces during Indonesia’s fight for independence, Brawijaya Museum displays some of the artillery used in the many battles fought in the 1940’s – including the battle of Surabaya on November 10th 1945.</p>
+
+      <p>Hosting a collection of armoured vehicles from tanks to personal cars used by army generals, this museum will definitely pull the strings of any military geek. Especially with an artillery collection from small firearms to huge anti-air missiles!</p>
+      </div>
+    </div>
+  </div>
+    <div>
+      <span>Bromo Mountain</span>
+      <div class="card">
+        <div class="container">
+      <img src="./images/Bromo.jpg" alt="Orem - Orem" style="width: 350px;height:350px;">
+      <p>Words can’t simply describe the beauty of this natural masterpiece! 
+          From relishing on a group of volcanoes floating above the sea of clouds to walking on the edge of the active volcanic crater, 
+          Bromo Tengger Semeru National Park is truly a magical once-in-a-lifetime destination!.</p>
+ 
+        <p>After sunrise, hop back on your jeep and enjoy a ride through the vast savannah and sea of sand as you make your way to the ultimate spot – Bromo Crater. Once your jeep stops at the foot of the crater, you’ll have to walk for some 15 minutes before reaching the set of stairs that’ll lead you to the crater.  
+            From there, you’ll relish on magical views of the surrounding dunes and tick off getting up close to an active volcano crater!</p>
+            </div>
+    </div>
+  </div>
+  </div>
+  <div class="details-wrapper">
+    <div>
+      <span>Jawa Timur Park 1</span>
+      <div class="card">
+      <img src="./images/jatim-park.jpg" alt="Bakso Bakar" style="width: 350px;height:350px;">
+        <div class="container">
+      <p>First of the many destinations under the Jawa Timur Park Group, 
+          Jawa Timur Park 1 offers a good bunch of attractions ranging from the usual stomach-churning amusement parks, 
+          to science and history exhibitions that are fully interactive.</p>
+
+          <p>Educative recreation is what the Jawa Timur Park 1 promotes. 
+              The attractions in the premises are often linked to either culture, the sciences, or history. 
+              An extensive exhibition room called the ‘Galeri Nusantara’ is dedicated to showcasing Indonesia’s variety of ethnicities from Sabang to Merauke. 
+              Even its biggest attraction – a gigantic swimming pool is in the theme of the cunning Ken Arok, the king of Singosari (present day Malang).
+        </p>
+        </div>
+        </div>
+    </div>
+    <div>
+      <span>Wonosari Tea Plantation</span>
+      <div class="card">
+      <img src="./images/Wonosari Tea Plantation.jpg" alt="Cwie Mie" style="width: 350px;height:350px;">
+        <div class="container">
+      <p>A 30 minutes drive north from Malang City will take you to Wonosari tea plantation, 
+          a sprawling 950-hectares tea plantation that sits peacefully on the chilly slopes of Mount Arjuna – now is where you’ll feel like in Cameron Highlands!</p>
+
+        <p>
+            This green oasis is a perfect spot for travellers to rejuvenate their tired mind and soul after a long and intense travelling. 
+            After all, what can be more therapeutic than breathing in refreshing crisp air and gazing at such magical endless ocean of green?!
+        </p>
+    </div>
+  </div>
+  </div>
+  </div>
+
+<div class="footer">
+  <h2>Copyright © 2020 - Kinas.</h2>
+</div>
+
+</body>
+</html>
+
+<script>
+  window.onscroll = function() {myFunction()};
+  
+  var navbar = document.getElementById("navbar");
+  var sticky = navbar.offsetTop;
+  
+  function myFunction() {
+    if (window.pageYOffset >= sticky) {
+      navbar.classList.add("sticky")
+    } else {
+      navbar.classList.remove("sticky");
+    }
+  }
+  </script>
